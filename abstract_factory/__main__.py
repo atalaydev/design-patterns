@@ -68,6 +68,6 @@ if __name__ == "__main__":
     }
 
     letter = (input("Please choose a letter size: [A3/A4/A5]? : ")).upper()
-    assert letter in choices, "Unsupported latter provided!"
+    assert letter in choices, "Unsupported letter provided!"
 
     choices[letter].create_letter()
